@@ -16,3 +16,17 @@ h1 {
     padding: 10px;
     font-weight: 700;
 }
+
+p {
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    font-size: 14px;
+    width: 0 auto;
+
+}
+
+article {
+    text-align: center;
+    position: relative;
+}
