@@ -6,23 +6,48 @@
 }
 
 body {
-    background-color: bisque;
+    background-color:beige;
     padding: 3px;
+}
+
+nav{
+    text-align: center;
+    padding: 10px 10px;
+}
+
+li {
+    padding: 10px;
+    text-align: center;
+    display:inline-block;
+    width: 0 auto;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 h1 {
     text-align: center;
-    background-color: blanchedalmond;
-    padding: 10px;
+    background-color:rgba(235, 135, 213, 0.4);
+    padding: 50px;
     font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    background-color:rgba(223, 90, 194, 0.4);
+    padding: 50px;
+    font-weight: 700;
+    color: coral;
+
 }
 
 p {
     text-align: center;
-    background-color: brown;
+    background-color: rgb(185, 105, 105);
     padding: 10px;
-    font-size: 14px;
+    font-size: 23px;
     width: 0 auto;
+    padding: 10px 200px;
 
 }
 
