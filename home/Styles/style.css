@@ -32,6 +32,10 @@ h1 {
     text-transform: uppercase;
 }
 
+nav li:hover{
+    color: rgb(59, 59, 180);
+}
+
 h2 {
     text-align: center;
     background-color:rgba(223, 90, 194, 0.4);
