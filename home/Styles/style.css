@@ -6,22 +6,43 @@
 }
 
 body {
-    background-color:beige;
+    background-color:#33332d;
     padding: 3px;
 }
 
 nav{
     text-align: center;
     padding: 10px 10px;
+    background-color: black;
 }
+
 
 li {
     padding: 10px;
-    text-align: center;
+    text-align:center;
     display:inline-block;
     width: 0 auto;
     font-size: 30px;
     text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+a:link, a:visited{
+
+    text-decoration: none;
+    padding: 10px;
+    display:inline-block;
+    width: 0 auto;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+a:active{
+    border: 1px solid black;
+    border-style:ridge;
+    padding: 5px 10px;
+    background-color: #e9e9c2;
 }
 
 h1 {
@@ -32,7 +53,16 @@ h1 {
     text-transform: uppercase;
 }
 
-nav li:hover{
+#logobanner {
+
+    text-align: center;
+    display: inline-block;
+    height: 200px;
+    background-color: black;
+
+}
+
+a:hover{
     color: rgb(59, 59, 180);
 }
 
