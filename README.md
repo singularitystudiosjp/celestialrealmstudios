@@ -1,2 +1,2 @@
-# coursera-1
-Coursera Course Repository
+# Celeste Studios Base
+Celeste Studios Website Repository
