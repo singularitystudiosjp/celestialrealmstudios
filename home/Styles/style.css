@@ -11,11 +11,21 @@ body {
 }
 
 nav{
-    text-align: center;
     padding: 10px 10px;
     background-color: black;
 }
 
+#banlogo, #banmenu {
+    text-align: center;
+}
+
+.largeimage{
+
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+
+}
 
 li {
     padding: 10px;
