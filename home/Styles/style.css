@@ -1,5 +1,18 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('leaguespartan-bold.eot');
+    src: url('leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('leaguespartan-bold.woff2') format('woff2'),
+         url('leaguespartan-bold.woff') format('woff'),
+         url('leaguespartan-bold.ttf') format('truetype'),
+         url('leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
 * {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'League Spartan';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,6 +26,7 @@ body {
 nav{
     padding: 10px 10px;
     background-color: black;
+
 }
 
 #banlogo, #banmenu {
@@ -32,8 +46,6 @@ li {
     text-align:center;
     display:inline-block;
     width: 0 auto;
-    font-size: 30px;
-    text-transform: uppercase;
     color: rgb(255, 255, 255);
 }
 
@@ -44,8 +56,10 @@ a:link, a:visited{
     display:inline-block;
     width: 0 auto;
     font-size: 30px;
+    text-transform: lowercase;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.555);
 }
 
 a:active{
@@ -57,10 +71,81 @@ a:active{
 
 h1 {
     text-align: center;
-    background-color:rgba(235, 135, 213, 0.4);
+    color: beige;
+    background-color:rgb(0, 0, 0);
     padding: 50px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: lowercase;
+}
+
+.focuspoint {
+
+    width: 100%;
+    height: 700px;
+    position: relative;
+
+}
+
+.focuspoint video {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.focuspoint .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.focuspoint h2 {
+  background-color: #33332d00;
+  color: #ffffff;
+  text-decoration-style: double;
+}
+
+.discdiv {
+
+    position: relative;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: bisque;
+
+}
+
+.discdiv p {
+
+    background-color: #33332d00;
+    font-size: 15px;
+    border: #ffffff solid 0.5px;
+    padding: 50px;
+    
+}
+
+.discdiv div {
+
+    display: inline-block;
+
+}
+
+#discright {
+
+    display: inline-block;
+    text-align: right;
+
+}
+
+
+#discleft {
+
+    display: inline-block;
+    text-align: left;
+
 }
 
 #logobanner {
