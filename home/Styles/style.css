@@ -113,18 +113,29 @@ h1 {
 
     position: relative;
     z-index: 2;
-    background-color: rgba(0, 0, 0, 0.418);
+    width: 100%;
     color: bisque;
+    text-align: center;
 
 }
 
 .discdiv p {
 
-    background-color: #33332d00;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.418);
     font-size: 15px;
     border: #ffffff solid 0.5px;
     padding: 50px;
+    width: 600px;
+    height: 300px;
+    margin: 10px 20px;
     
+}
+
+.discdiv h3 {
+
+    font-size: 25px;
+
 }
 
 .discdiv div {
