@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href=".//Styles/style.css" rel="stylesheet">
+    <title>About - Celeste Studios - Under construction</title>
+
+    <div>
+
+    </div>
+
+    <nav>
+        <div id="banlogo">
+
+            <img id="logobanner" src="./images/logo2.png" />
+
+
+        </div>
+
+        <div id="banmenu">
+
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><div id="popup" class="popup" onclick="myFunction()">Celeste Studios
+                    <span class="popuptext" id="myPopup">Website is Still under construction..</span>
+                </div></li>
+            </ul>
+
+        </div>
+
+
+    </nav>
+
+
+    <style>
+        /* Popup container - can be anything you want */
+        .popup {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            text-decoration: none;
+            padding: 10px;
+            width: 0 auto;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            font-weight: normal;
+        }
+    
+        /* The actual popup */
+        .popup .popuptext {
+            visibility: hidden;
+            width: 160px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px 0;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -80px;
+        }
+    
+        /* Popup arrow */
+        .popup .popuptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        }
+    
+        /* Toggle this class - hide and show the popup */
+        .popup .show {
+            visibility: visible;
+            -webkit-animation: fadeIn 1s;
+            animation: fadeIn 1s;
+        }
+    
+        /* Add animation (fade in the popup) */
+        @-webkit-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+    
+            to {
+                opacity: 1;
+            }
+        }
+    
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+    
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+
+</head>
+
+<main>
+
+    <body>
+
+        <div id="mainimage" class="largeimage">
+            <img class="largeimage" src="./images/aboutanim.gif"
+                alt="Celeste Studios Logo above earth with some commets coming out." />
+        </div>
+
+        <h1>Celeste Studios by Axel</h1>
+
+        <script>
+            // When the user clicks on <div>, open the popup
+            function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+            }
+        </script>
+
+
+    </body>
+
+
+
+</main>
+
+
+<footer>
+
+    <div id="footerthing">
+        <h5>Celeste Studios by Khalid (Axel) Idris.</h5>
+        <p>
+            For further infromation please contact the email below: <br>
+            <a id="footerthing" class="lowermail" href="mailto:axel@celestestudios.store" target="_blank">
+                axel@celestestudios.store
+            </a>
+        </p>
+        <h5>Celeste Studios&copy;</h5>
+    </div>
+
+</footer>
+
+
+</html>
