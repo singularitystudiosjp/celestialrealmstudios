@@ -129,7 +129,7 @@ h1 {
     position: relative;
     z-index: 2;
     color: bisque;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
     text-align: center;
@@ -141,11 +141,9 @@ h1 {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.418);
     font-size: 1rem;
-    border: #ffffff solid 0.5px;
+    border: #ffffff73 solid 0.5px;
     padding: 20px 20px;
-    max-width: 80%;
     height: auto;
-    width: auto\9; /* ie8 */
     margin: 10px 30px;
     
 }
@@ -155,7 +153,6 @@ h1 {
     display: inline-block;
     font-size: 1rem;
     background-color: rgba(0, 0, 0, 0);
-    max-width: 80%;
     height: auto;
     max-height: 433px;
     overflow: auto;
@@ -169,12 +166,19 @@ h1 {
 
 }
 
-.discdiv div {
+.inlinediv {
 
-    max-width: 100%;
+    float: left;
+
+
+}
+
+.centerabout {
+
+    display: block;
+    width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
-    text-align: center;
+    z-index: 1;
 
 }
 
