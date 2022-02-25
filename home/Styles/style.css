@@ -180,6 +180,14 @@ a:hover{
 
 }
 
+.footerstyler p, a{
+
+    background-color: #0000009a;
+    font-size: small;
+    text-transform: lowercase;
+
+}
+
 #footerthing {
     padding: 20px;
 }
