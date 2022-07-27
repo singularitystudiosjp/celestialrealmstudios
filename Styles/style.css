@@ -48,7 +48,9 @@ nav{
 
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: 4069px;
+    position: relative;
+    padding: 39px 0px;
 
 }
 
@@ -231,7 +233,16 @@ a:hover{
 
 #footerthing {
     clear: both;
-    margin-top: 600px;
+    margin-top: 50%;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+#footerthingab {
+    clear: both;
+    margin-top: 20%;
     padding: 20px;
     max-width: 100%;
     height: auto;
