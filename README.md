@@ -1,2 +1,2 @@
-# Celeste Studios Base
-Celeste Studios Website Repository
+# Celestial Realm Studios Base
+Celestial Realm Studios Website Repository
