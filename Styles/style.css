@@ -180,6 +180,8 @@ h1 {
 .inlinediv {
 
     float: left;
+    align-items: center;
+    justify-content: center;
 
 
 }
