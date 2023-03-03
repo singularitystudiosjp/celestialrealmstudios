@@ -280,6 +280,25 @@ h1 {
     background-origin: border-box;
     background-clip: content-box, border-box;
   }
+
+    .btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 16rem;
+    height: 4rem;
+    background-size: 300% 300%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(1rem) ;
+    border-radius: 5rem;
+    transition: 0.5s;
+    animation: gradient_301 5s ease infinite;
+    border: double 4px transparent;
+    background-image: linear-gradient(#212121, #212121),  linear-gradient(137.48deg, #ffdb3b 10%,#FE53BB 45%, #8F51EA 67%, #0044ff 87%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
   
   #container-stars {
     position: fixed;
@@ -295,8 +314,8 @@ h1 {
   
   strong {
     z-index: 2;
-    font-family: 'Avalors Personal Use';
-    font-size: 12px;
+    padding: 20px 20px;
+    font-size: 2vw;
     letter-spacing: 5px;
     color: #FFFFFF;
     text-shadow: 0 0 4px white;
@@ -341,6 +360,26 @@ h1 {
   }
   
   .btn:active .circle {
+    background: #FE53BB;
+  }
+
+  .btn2:hover #container-stars {
+    z-index: 1;
+    background-color: #212121;
+  }
+  
+  .btn2:hover {
+    transform: scale(1.1)
+  }
+  
+  .btn2:active {
+    border: double 4px #FE53BB;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    animation: none;
+  }
+  
+  .btn2:active .circle {
     background: #FE53BB;
   }
   
@@ -530,6 +569,7 @@ a:hover{
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
+    padding: 20px;
 
 }
 
@@ -556,6 +596,8 @@ a:hover{
     width: auto\9; /* ie8 */
 }
 
+@media only screen and (max-width: 480px) { #footerthing { margin: auto; align-items: center; justify-content: center; clear: both; margin-top: 25%; /* reduce the margin-top / padding: 10px; / reduce the padding / max-width: 100%; height: auto; width: auto\9; / ie8 */ } }
+
 #footerthingab {
     clear: both;
     margin-top: 20%;
@@ -575,6 +617,8 @@ a:hover{
 
 }
 
+@media only screen and (max-width: 480px) { .lowermail { font-size: 1vw; /* 1% of viewport width / text-transform: lowercase; max-width: 100%; height: auto; width: auto\9; / ie8 */ } }
+
 
 #footerthing h5{
 
@@ -587,6 +631,7 @@ a:hover{
 
     color: #e9e9c2;
     text-align: center;
+    padding: 20px 20px;
 
 }
 
