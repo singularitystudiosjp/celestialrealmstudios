@@ -567,13 +567,14 @@ a:hover{
 
 .lowermail {
 
-    font-size: small;
+    font-size: 2vw; /* 2% of viewport width */
     text-transform: lowercase;
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
 
 }
+
 
 #footerthing h5{
 
